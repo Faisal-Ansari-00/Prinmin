@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #eaeded;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 40px;
+}
+
+.print-container {
+
+    width: 500px;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px gray;
+}
+
+.print-container h1 {
+
+    color: #007185;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.print-container h2 {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.section {
+
+    margin-bottom: 20px;
+}
+
+.section label {
+
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-weight: bold;
+}
+
+.section input,
+.section select {
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid gray;
+
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+}
+
+.section button {
+
+    padding: 10px 15px;
+
+    border: none;
+
+    background-color: #febd68;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.section button:hover {
+
+    background-color: orange;
+}
+
+.payment-btn {
+
+    width: 100%;
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
+
+.home-link {
+
+    display: block;
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    text-decoration: none;
+
+    color: #007185;
+}
+
+#otpMessage {
+
+    margin-top: 10px;
+}
+
+#location {
+
+    margin-top: 10px;
+
+    font-size: 14px;
+}
